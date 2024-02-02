@@ -1,5 +1,7 @@
-package io.github.jiangdequan;
+package Seminar_4;
 
-public interface UserView {
-    
+import java.util.List;
+
+public interface UserView<T extends User> {
+  public void sendOnConcole(List<T> list);  
 }

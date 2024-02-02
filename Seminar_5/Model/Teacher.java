@@ -1,7 +1,6 @@
-package Seminar_4;
+package Seminar_5.Model;
 
-public class Teacher extends User {
-
+public class Teacher extends User{
     private int teacherId; 
    
     public int getTeacherId() {
@@ -23,5 +22,4 @@ public class Teacher extends User {
                 ", lastName='" + super.getLastName() + '\'' +
                 '}';
     }    
-
 }

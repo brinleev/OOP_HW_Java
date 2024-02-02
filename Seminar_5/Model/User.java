@@ -1,6 +1,6 @@
-package Seminar_4;
+package Seminar_5.Model;
 
-public class User {
+public abstract class User {
     private String firstName;
     private String secondName;
     private String lastName;
@@ -33,16 +33,6 @@ public class User {
     
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +                
-                "firstName= " + firstName + '\'' +
-                ", secondName='" + secondName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
-    }
-  
+    }   
 
 }
